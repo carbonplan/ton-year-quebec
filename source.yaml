@@ -1,0 +1,32 @@
+sources:
+  canada_ecoregion_albedo:
+    parameters:
+      biome:
+        description: >-
+          shortname for the biome to which the unforested land is being
+          converted
+        type: str
+    driver: excel
+    args:
+      urlpath: '{{ CATALOG_DIR }}/data//Ecoregion_CO2eq_GRA_to_{{ biome }}_v2_subset.xlsx'
+    metadata:
+      title: >-
+        CO2eq Effects from Albedo Changes due to Potential Afforestation for
+        Ecoregions across Canada
+      description: >
+        Data table entries report CO2eq in [kg C m-2 ground] representing the
+        CO2-equivalent climate cooling impact (negative indicates warming
+        effect) caused by albedo changes from afforestation with transition from
+        an original non-forest biome to a new forest biome.  For example, a
+        value of -6 kg C m-2 indicates that the albedo change has a climate
+        effect equivalent to an emission of 6 kg C (as CO2) per square meter
+        afforested.  Results assume 100% conversion from non-forest to forest
+        cover, and thus represent a maximum effect.  In reality, forest cover
+        expansion on afforestation sites may occur gradually as the
+        afforestation process unfolds, thus there may be a transient approach to
+        this maximum that takes place over time.
+      license: Unknown
+      providers:
+        - name: Christopher A. Williams
+          email: cwilliams@clarku.edu
+          url: 'https://www2.clarku.edu/faculty/facultybio.cfm?id=715'
