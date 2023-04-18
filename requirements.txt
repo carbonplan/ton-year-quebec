@@ -1,6 +1,6 @@
-intake=0.6.8=pyhd8ed1ab_0
-intake-excel=0.1.4=pypi_0
-openpyxl=3.1.2=pypi_0
-pandas=1.4.2=py39hbd61c47_1
-pint=0.20.1=pyhd8ed1ab_0
+intake==0.6.8
+intake-excel==0.1.4
+openpyxl==3.1.2
+pandas==1.4.2
+pint==0.20.1
 git+https://github.com/carbonplan/fair-equivalence-graphs
