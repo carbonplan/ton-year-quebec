@@ -8,7 +8,7 @@ sources:
         type: str
     driver: excel
     args:
-      urlpath: '{{ CATALOG_DIR }}/data//Ecoregion_CO2eq_GRA_to_{{ biome }}_v2_subset.xlsx'
+      urlpath: 's3://carbonplan-ton-year-quebec/Ecoregion_CO2eq_GRA_to_{{ biome }}_v2.xls'
     metadata:
       title: >-
         CO2eq Effects from Albedo Changes due to Potential Afforestation for
@@ -25,7 +25,7 @@ sources:
         expansion on afforestation sites may occur gradually as the
         afforestation process unfolds, thus there may be a transient approach to
         this maximum that takes place over time.
-      license: Unknown
+      license: CC BY 4.0
       providers:
         - name: Christopher A. Williams
           email: cwilliams@clarku.edu
