@@ -14,6 +14,7 @@ sources:
         CO2eq Effects from Albedo Changes due to Potential Afforestation for
         Ecoregions across Canada
       description: >
+        [taken from product README]
         Data table entries report CO2eq in [kg C m-2 ground] representing the
         CO2-equivalent climate cooling impact (negative indicates warming
         effect) caused by albedo changes from afforestation with transition from
